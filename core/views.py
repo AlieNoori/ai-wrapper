@@ -141,7 +141,7 @@ def conversation_detail(request, conversation_id):
     """
     try:
         conversation = AIConversation.objects.prefetch_related("logs").get(
-            id=conversation_id, user=request.user
+            id=conversation_id
         )
     except AIConversation.DoesNotExist:
         return Response(

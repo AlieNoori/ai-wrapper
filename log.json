@@ -1,0 +1,33 @@
+{
+  "id": 2,
+  "title": "Hello AI, this is a test!",
+  "created_at": "2026-07-11T09:01:46.168127Z",
+  "updated_at": "2026-07-11T09:23:06.161630Z",
+  "logs": [
+    {
+      "id": 2,
+      "prompt": "Hello AI, this is a test!",
+      "model_used": "MiniMaxAI/MiniMax-M2.7",
+      "response_text": null,
+      "status": "PENDING",
+      "error_message": null,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "created_at": "2026-07-11T09:01:46.169650Z"
+    },
+    {
+      "id": 9,
+      "prompt": "Hello, this is a test 2+3",
+      "model_used": "MiniMaxAI/MiniMax-M2.7",
+      "response_text": "<think>The user says: \"Hello, this is a test 2+3\". They appear to be greeting, and also stating they are a test, and maybe ask what is 2+3. The user wants to compute 2+3? The message says \"Hello, this is a test 2+3\". It could be a simple greeting and maybe a test to see if the assistant replies. Perhaps they are checking if the assistant can understand that \"2+3\" is an arithmetic question. The user wants to get the answer: 5.\n\nThus reply with greeting and answer: \"Hello! 2 + 3 = 5\". Possibly include a friendly comment. As per policy: no disallowed content. It's trivial. So just answer.\n\nOne could add \"Sure, 2+3=5\". Keep it short. The user didn't ask anything beyond that, but we can respond.\n\nHence output: \"Hello! The sum of 2 and 3 is 5.\"\n</think>\n\nHello! 2 + 3 = 5.",
+      "status": "SUCCESS",
+      "error_message": null,
+      "prompt_tokens": 48,
+      "completion_tokens": 216,
+      "total_tokens": 264,
+      "created_at": "2026-07-11T09:22:48.093716Z"
+    }
+  ]
+}
+

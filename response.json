@@ -1,0 +1,175 @@
+[
+  {
+    "id": 2,
+    "title": "Hello AI, this is a test!",
+    "created_at": "2026-07-11T09:01:46.168127Z",
+    "updated_at": "2026-07-11T09:23:06.161630Z",
+    "logs": [
+      {
+        "id": 2,
+        "prompt": "Hello AI, this is a test!",
+        "model_used": "MiniMaxAI/MiniMax-M2.7",
+        "response_text": null,
+        "status": "PENDING",
+        "error_message": null,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "created_at": "2026-07-11T09:01:46.169650Z"
+      },
+      {
+        "id": 9,
+        "prompt": "Hello, this is a test 2+3",
+        "model_used": "MiniMaxAI/MiniMax-M2.7",
+        "response_text": "<think>The user says: \"Hello, this is a test 2+3\". They appear to be greeting, and also stating they are a test, and maybe ask what is 2+3. The user wants to compute 2+3? The message says \"Hello, this is a test 2+3\". It could be a simple greeting and maybe a test to see if the assistant replies. Perhaps they are checking if the assistant can understand that \"2+3\" is an arithmetic question. The user wants to get the answer: 5.\n\nThus reply with greeting and answer: \"Hello! 2 + 3 = 5\". Possibly include a friendly comment. As per policy: no disallowed content. It's trivial. So just answer.\n\nOne could add \"Sure, 2+3=5\". Keep it short. The user didn't ask anything beyond that, but we can respond.\n\nHence output: \"Hello! The sum of 2 and 3 is 5.\"\n</think>\n\nHello! 2 + 3 = 5.",
+        "status": "SUCCESS",
+        "error_message": null,
+        "prompt_tokens": 48,
+        "completion_tokens": 216,
+        "total_tokens": 264,
+        "created_at": "2026-07-11T09:22:48.093716Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Hello, this is a test 2+3",
+    "created_at": "2026-07-11T09:20:33.531987Z",
+    "updated_at": "2026-07-11T09:20:40.141169Z",
+    "logs": [
+      {
+        "id": 8,
+        "prompt": "Hello, this is a test 2+3",
+        "model_used": "MiniMaxAI/MiniMax-M2.7",
+        "response_text": "<think>The user is speaking: \"Hello, this is a test 2+3\". Possibly they want the result of 2+3, i.e., 5. Could also be testing. They said \"Hello, this is a test 2+3\". That's likely they want me to answer \"5\". So respond with \"Hello! 2+3 = 5\". So answer accordingly.\n\nBut we must check content policy: trivial math. It's fine.\n\nThus respond short.\n</think>\n\nHello! 2 + 3 = 5.",
+        "status": "SUCCESS",
+        "error_message": null,
+        "prompt_tokens": 49,
+        "completion_tokens": 114,
+        "total_tokens": 163,
+        "created_at": "2026-07-11T09:20:33.544674Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Hello, this is a test 2+3",
+    "created_at": "2026-07-11T09:09:19.611311Z",
+    "updated_at": "2026-07-11T09:09:26.760197Z",
+    "logs": [
+      {
+        "id": 7,
+        "prompt": "Hello, this is a test 2+3",
+        "model_used": "MiniMaxAI/MiniMax-M2.7",
+        "response_text": "<think>The user says: \"Hello, this is a test 2+3\". Likely they want a response. The message is a test: they say \"Hello, this is a test 2+3\". Possibly they want to compute 2+3. According to policy, we should answer the question. They ask \"2+3\". So answer: \"5\". Probably a simple answer.\n\nWe can answer: \"5\". Perhaps add a friendly greeting.\n\nThe policy: no issues.\n\nWe should respond with a short answer: \"2 + 3 = 5\". The user might also be testing greeting. We can respond accordingly.\n\nTherefore final answer: \"2 + 3 = 5\".\n</think>\n\n2 + 3 = 5",
+        "status": "SUCCESS",
+        "error_message": null,
+        "prompt_tokens": 49,
+        "completion_tokens": 154,
+        "total_tokens": 203,
+        "created_at": "2026-07-11T09:09:19.612834Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Hello AI, this is a test!",
+    "created_at": "2026-07-11T09:07:10.101479Z",
+    "updated_at": "2026-07-11T09:07:32.893314Z",
+    "logs": [
+      {
+        "id": 6,
+        "prompt": "Hello AI, this is a test!",
+        "model_used": "MiniMaxAI/MiniMax-M2.7",
+        "response_text": "<think>The user says \"Hello AI, this is a test!\" That's a greeting, perhaps they want a response. There's no policy violation. So just respond. The user might be expecting a simple greeting: \"Hello! How can I help you?\" Could also incorporate a test of my capabilities. They are just testing. So respond with a friendly greeting and ask how I can help. So the response can be something like \"Hello! I'm here to help. How can I assist you today?\" This is straightforward.\n\nBut we need to see if there's any nuance: Could the user be a malicious test? Probably not. So just a friendly greeting.\n\nThus final answer: \"Hello! How can I help you today?\"\n</think>\n\nHello! I’m here and ready to help. What would you like to know or work on today?",
+        "status": "SUCCESS",
+        "error_message": null,
+        "prompt_tokens": 46,
+        "completion_tokens": 167,
+        "total_tokens": 213,
+        "created_at": "2026-07-11T09:07:10.104603Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Hello AI, this is a test!",
+    "created_at": "2026-07-11T09:06:11.612623Z",
+    "updated_at": "2026-07-11T09:06:11.612640Z",
+    "logs": [
+      {
+        "id": 5,
+        "prompt": "Hello AI, this is a test!",
+        "model_used": "MiniMaxAI/MiniMax-M2.7",
+        "response_text": null,
+        "status": "FAILED",
+        "error_message": "API Error: 401 - {\"error\":{\"message\":\"Missing API token\"}}\n",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "created_at": "2026-07-11T09:06:11.615272Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hello AI, this is a test!",
+    "created_at": "2026-07-11T09:03:12.685623Z",
+    "updated_at": "2026-07-11T09:03:12.685641Z",
+    "logs": [
+      {
+        "id": 4,
+        "prompt": "Hello AI, this is a test!",
+        "model_used": "MiniMaxAI/MiniMax-M2.7",
+        "response_text": null,
+        "status": "FAILED",
+        "error_message": "API Error: 401 - {\"error\":{\"message\":\"Missing API token\"}}\n",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "created_at": "2026-07-11T09:03:12.689046Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Hello AI, this is a test!",
+    "created_at": "2026-07-11T09:02:23.162471Z",
+    "updated_at": "2026-07-11T09:02:23.162492Z",
+    "logs": [
+      {
+        "id": 3,
+        "prompt": "Hello AI, this is a test!",
+        "model_used": "MiniMaxAI/MiniMax-M2.7",
+        "response_text": null,
+        "status": "FAILED",
+        "error_message": "API Error: 401 - {\"error\":{\"message\":\"Missing API token\"}}\n",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "created_at": "2026-07-11T09:02:23.165306Z"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Hello AI, this is a test!",
+    "created_at": "2026-07-11T08:20:07.427701Z",
+    "updated_at": "2026-07-11T08:20:07.427719Z",
+    "logs": [
+      {
+        "id": 1,
+        "prompt": "Hello AI, this is a test!",
+        "model_used": "MiniMaxAI/MiniMax-M2.7",
+        "response_text": null,
+        "status": "PENDING",
+        "error_message": null,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "created_at": "2026-07-11T08:20:07.429297Z"
+      }
+    ]
+  }
+]
+
